@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: hsl(216, 12%, 8%);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-content{
+    width: 410px;
+    height: 410px;
+    background: linear-gradient(180deg, #252d37e6 0%, #252d374d 100%);
+    border-radius: 35px;
+    padding: 30px;
+}
+.rating-state{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.star-image img{
+    background-color: hsl(216, 12%, 54%, 0.1);
+    border-radius: 50%;
+    padding: 15px;
+    width: 50px;
+    display: flex;
+}
+h1{
+    color: white;
+    font-weight: 700;
+    margin-top: 35px;
+    font-size: 28px;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.box-rates{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.btn-rate{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 15px;
+    background-color: hsla(216, 12%, 54%, 0.1);
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.btn-rate:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.btn-rate:focus{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.submit-rate{
+    width: 100%;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+.submit-rate:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+.thank-you-state{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.thank-image{
+    margin-bottom: 20px;
+}
+.result-rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(216, 12%, 54%, 0.1);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    min-width: 190px;
+    padding: 7px;
+}
+h2{
+    margin-top: 30px;
+    color: white;
+}
+.thnak-you-state p{
+    width: 340px;
+    margin: 0;
+}
